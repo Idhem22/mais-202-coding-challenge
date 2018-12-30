@@ -20,6 +20,6 @@ try:
     plt.bar(range(len(interest)), list(interest.values()), align='center', color=colors, linewidth=0.2)
     plt.xticks(range(len(interest)), list(interest.keys()))
     plt.xlabel('Purpose')
-    plt.ylabel('Avg interest rates')
+    plt.ylabel('Mean interest rates (%)')
 finally:
     data.close()
